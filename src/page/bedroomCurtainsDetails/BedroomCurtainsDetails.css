@@ -1,0 +1,239 @@
+
+.bedroomCurtainsDetails {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  .bedroomCurtainsDetails .bedroomCurtainsDetails-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+  }
+  
+  
+  .bedroomCurtainsDetails .bedroomCurtainsDetails-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bedroomCurtainsDetails .bedroomCurtainsDetails-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .bedroomCurtainsDetails .bedroomCurtainsDetails-title {
+    flex: 1;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .bedroomCurtainsDetails .bedroomCurtainsDetails-stars {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .bedroomCurtainsDetails .bedroomCurtainsDetails-stars .stars b {
+    color: gold;
+  }
+  
+
+  .details-size ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .details-size li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .details-size li.active {
+    background-color: #f0f0f0;
+    border-color: #333;
+  }
+  
+  
+  .details-quantity p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+
+  .related-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+    margin: 5em;
+    max-width: 1300px;
+    margin-left: 7em;
+  }
+  
+  .related-item {
+    text-align: center;
+  }
+  
+  .related-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .related-price h3 {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+ 
+  .product-comments {
+    margin-top: 50px;
+  }
+  
+  .product-comments h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .product-comments .comments-list {
+    margin-bottom: 30px;
+  }
+  
+  .add-comment input, .add-comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-comment button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+ .bedroomCurtainsDetails .related-photo-name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #696969;
+ }
+
+ .bedroomCurtainsDetails .related-photo-name span{
+    color: goldenrod;
+    cursor: pointer;
+ }
+
+ .bedroomCurtainsDetails .quantity-select select{
+    padding: 5px 20px;
+    outline: none;
+
+ }
+  
+
+  @media (max-width: 900px) {
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-image,
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-title {
+      max-width: 100%;
+    }
+  
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-image img {
+      height: 40vh;
+    }
+  
+    .bedroomCurtainsDetails .details-btn-section {
+      max-width: 80%;
+      margin-top: 20px;
+    }
+
+  }
+  
+
+  @media (max-width: 768px) {
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-image,
+    .bedroomCurtainsDetails .bedroomCurtainsDetails-title {
+      max-width: 100%;
+    }
+  
+  
+    .details-btn button {
+      width: 100%;
+    }
+  
+    .details-size li {
+      font-size: 12px;
+    }
+  
+    .product-comments .add-comment input,
+    .product-comments .add-comment textarea {
+      font-size: 14px;
+    }
+  }
+  
+
+  @media (max-width: 550px) {
+    .details-btn-section {
+      max-width: 100%;
+    }
+  
+    .details-btn button {
+      padding: 10px 25px;
+      font-size: 14px;
+    }
+  
+    .related-wrapper {
+      margin-left: 4em;
+    }
+  
+    .related h1 {
+      font-size: 1.5em;
+    }
+  
+    .related-item p {
+      font-size: 14px;
+    }
+  
+    .related-price h3 {
+      font-size: 1em;
+    }
+  
+    .stars {
+      font-size: 1em;
+    }
+  }
+  

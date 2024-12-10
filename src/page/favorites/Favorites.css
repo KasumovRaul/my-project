@@ -1,0 +1,123 @@
+.favorites-page {
+    margin: 2em;
+}
+
+.favorites-page h2 {
+    margin: 2em 0;
+    font-family: sans-serif;
+}
+
+.favorites-page .favorite-item {
+    display: flex;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    position: relative;
+}
+
+.favorites-page .favorite-item img {
+    height: 300px;
+    width: 300px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.favorites-page .favorite-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1em;
+    flex-grow: 1;
+    padding-top: 4em;
+}
+
+.favorites-page h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.favorites-page .favorite-desc p {
+    margin-bottom: 1em;
+}
+
+.favorites-page .favorite-price p {
+    color: goldenrod;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 1em;
+}
+
+.favorites-page .favorites-removeBtn {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;  /* Butonun alt kısımda olmasını sağlar */
+}
+
+.favorites-page .favorites-removeBtn button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: red;
+}
+
+.favorites-page .back-btn{
+    text-align: center;
+    margin-top: 5em;
+    position: relative;
+}
+
+.favorites-page .back-btn h3{
+    font-family: cursive;
+}
+
+.favorites-page .back-btn button{
+   padding: 10px 25px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   color: #fff;
+   background: goldenrod;
+   border-radius: 4px;
+}
+
+.favorites-page .back-btn button:hover{
+    background: rgb(202, 147, 10);
+}
+
+.favorites-page .back-btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .favorites-page .favorite-item {
+        display: block;
+        margin-bottom: 1em;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        position: relative;
+    }
+
+    .favorites-page .favorite-item img {
+         height: auto; 
+        width: 100%; 
+        padding: 1em;
+        cursor: pointer;
+    }
+
+    .favorites-page h2{
+        text-align: center;
+    }
+
+    .favorites-page .favorite-info{
+        padding-top: 0;
+    }
+}

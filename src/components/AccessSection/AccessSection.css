@@ -1,0 +1,69 @@
+.accessSection {
+    width: 100%;
+    margin-top: 5em;
+    position: relative;
+}
+
+.accessSection-wrapper {
+    display: flex;
+    max-width: 100%;
+    position: relative; /* Konumlandırma için gerekli */
+}
+
+
+.accessSection .accessSection-wrapper img {
+    width: 750px;
+    height: 590px;
+    padding: 2em;
+    padding-top: 5em;
+    position: relative; 
+    z-index: 2; 
+    transform: translateX(100px); 
+    cursor: pointer;
+}
+
+
+
+.accessSection .accessSection-right {
+    background: goldenrod;
+    padding: 8em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.accessSection .accessSection-right h3 {
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: linear-gradient(270deg, #FF00FF 0%, #F36D00 67%, #FE8E01 100%);
+}
+
+.accessSection .accessSection-right-desc p {
+    padding: 1em 0;
+    color: #fff;
+}
+
+.accessSection .accessSection-shop {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    line-height: 27px;
+}
+
+.accessSection .accessSection-shop li {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.accessSection .accessSection-shop li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

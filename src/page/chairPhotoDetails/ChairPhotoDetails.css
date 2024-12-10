@@ -1,0 +1,497 @@
+
+.chairProductDetails {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  .chairProductDetails-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .chairProductDetails-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chairProductDetails-image img {
+    max-width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chairProductDetails-title {
+    flex: 1;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-desc p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .chairProductDetails-stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .chairProductDetails-stars .stars b {
+    color: #f39c12;
+    font-size: 1.2rem;
+  }
+  
+  .reviews p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .details-price h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .details-price span {
+    color: goldenrod;
+    font-weight: 500;
+  }
+  
+  .details-size ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details-size ul li {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .details-size ul li:hover {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .details-size ul li.active {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .details-quantity p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  .details-quantity h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .details-btn-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    max-width: 65%;
+  }
+  
+  .details-btn button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .details-btn button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .details-favorites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .details-favorites i {
+    font-size: 1.8rem;
+    color: #d35400;
+    transition: color 0.3s;
+    border:  1px solid #ddd;
+    padding: 6px 8px;
+    border-radius: 45px;
+    display: flex;
+  }
+  
+  .details-favorites i:hover {
+    color: #d35400;
+  }
+  
+  .related{
+    margin-top: 5em;
+
+  }
+  
+  .related h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0;
+    color: #333;
+    
+  }
+  
+  .related-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+    margin: 5em;
+    max-width: 1300px;
+    margin-left: 7em;
+  }
+  
+  .related-item {
+    flex: 0 0 auto;
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .related-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .related-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+    display: flex;
+    justify-content: space-around
+  }
+
+  .related-title .stars b{
+    color: gold;
+  }
+
+  .related .related-item p{
+    padding: 0.5em ;
+  }
+  
+  .related-arrow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: absolute;
+    top: 95%;
+    left: 120px;
+    right: 120px;
+  }
+  
+  .related-arrow button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 6px 0px;
+    border-radius: 5px;
+    
+  }
+
+  .chairProductDetails .related-photo-name p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #696969;
+    padding-bottom: 8px;
+ }
+
+ .chairProductDetails .related-photo-name span{
+    color: goldenrod;
+    cursor: pointer;
+ }
+  
+  .related-arrow button:hover {
+    color: #f39c12;
+  }
+  
+  .reviews{
+    position: relative;
+  }
+
+  .reviews-wrapper {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1400px;
+    margin: 1em 4em;
+  }
+  
+  .reviews-wrapper .box1,
+  .reviews-wrapper .box2,
+  .reviews-wrapper .box3 {
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .reviews-wrapper .box1:hover,
+  .reviews-wrapper .box2:hover,
+  .reviews-wrapper .box3:hover {
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .reviews-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .chairProductDetails .quantity-select select{
+  padding: 5px 20px;
+  outline: none;
+ }
+  
+  .reviews-wrapper ul h2 {
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .reviews-wrapper ul label {
+    font-size: 1.5rem;
+    color: #f39c12;
+    cursor: pointer;
+  }
+  
+  .reviews-wrapper .box1-title,
+  .reviews-wrapper .box2-title,
+  .reviews-wrapper .box3-title {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .reviews-wrapper.active label {
+    transform: rotate(180deg);
+  }
+  .reviews-wrapper .box1-title,
+  .reviews-wrapper .box2-title,
+  .reviews-wrapper .box3-title {
+      display: none;
+  }
+  
+  .reviews-wrapper.active .box1-title,
+  .reviews-wrapper .active .box2-title,
+  .reviews-wrapper .active .box3-title {
+      display: block;
+  }
+  
+
+  .product-comments {
+    margin-top: 100px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 7em;
+}
+
+.product-comments h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.comments-list p {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #2e2e2e;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.add-comment {
+    margin-top: 15px;
+}
+
+.add-comment textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.add-comment textarea:focus{
+    border: 1px solid #444;
+}
+
+.add-comment button {
+    padding: 8px 43px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-comment button:hover {
+    background-color: #0056b3;
+}
+  
+.rating {
+    padding: 1em 0;
+}
+
+.rating p{
+    font-size: 14px;
+    color: #333;
+}
+
+.rating span {
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.rating span.active {
+    color: gold;
+}
+
+.comment-rating span {
+    font-size: 18px;
+    color: gray;
+}
+
+.comment-rating span.active {
+    color: gold;
+}
+
+.comments-list  strong{
+    display: flex;
+}
+
+
+.add-comment input {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+}
+
+.add-comment textarea {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 100px;
+}
+
+.comment-item {
+    margin-bottom: 20px;
+}
+
+.comment-rating span {
+    font-size: 18px;
+    color: gray;
+}
+
+.comment-item p strong {
+    font-weight: bold;
+}
+
+
+@media (max-width:900px){
+  .details-size ul{
+    font-size: 10px;
+    gap: 10px;
+  }
+}
+
+@media (max-width:768px){
+  .chairProductDetails-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chairProductDetails-image,
+  .chairProductDetails-title {
+      max-width: 100%;
+      margin: 0 0.4em;
+  }
+
+  .chairProductDetails-image img{
+    height: 35vh;
+  }
+
+  .chairProductDetails-title{
+    max-width: 100%;
+  }
+
+  .details-btn-section{
+    max-width: 50%;
+  }
+}
+
+@media (max-width:550px){
+  .details-btn-section{
+    max-width: 90%;
+  }
+
+  .details-btn button{
+    padding: 10px 35px;
+  }
+
+  .product-comments{
+    margin: 2em;
+  }
+
+  .related-wrapper{
+    margin-left: -1em;
+    margin: 0.1em;
+  }
+
+  .related h1{
+    font-size: 1.5em;
+  }
+}
